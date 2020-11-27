@@ -9,8 +9,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class PvCount {
 
-    private String pv;
-    private Long windowEnd;
-    private Long count;
+    private String pv; // pv字段
+    private Long windowEnd; //窗口结尾字段
+    private Long count;  //计数
 
 }
